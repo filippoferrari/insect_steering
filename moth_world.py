@@ -54,8 +54,8 @@ class World(object):
         
         
         # Define simulation region
-        wind_region = pompy.models.Rectangle(0., -2., 10., 2.)
-        sim_region = pompy.models.Rectangle(bounds_x[0], bounds_y[0], bounds_x[1], bounds_y[1])
+        wind_region = pompy.models.Rectangle(0., 10., -2., 2.)
+        sim_region = pompy.models.Rectangle(bounds_x[0], bounds_x[1], bounds_y[0], bounds_y[1])
         self.bounds_x = bounds_x
         self.bounds_y = bounds_y
       
